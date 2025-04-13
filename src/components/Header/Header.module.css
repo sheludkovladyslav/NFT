@@ -1,0 +1,16 @@
+.header {
+  padding: 32px 48px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-extrabold);
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: calc(30 / 20);
+}

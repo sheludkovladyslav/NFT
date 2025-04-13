@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1344px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 14px;
+  font-family: "Helvetica Now Medium";
+  line-height: calc(22 / 14);
+}
+
+@font-face {
+  font-family: "Helvetica Now Regular";
+  src: url("./fonts/HelveticaNowDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Now Extrabold";
+  src: url("./fonts/HelveticaNowDisplay-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Now Medium";
+  src: url("./fonts/HelveticaNowDisplay-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Now Bold";
+  src: url("./fonts/HelveticaNowDisplay-Bold.ttf") format("truetype");
+}
+
+body {
+  font-family: "Helvetica Now Regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

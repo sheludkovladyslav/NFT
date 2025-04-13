@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-medium);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-img {
+  width: 20px;
+  height: 20px;
+}

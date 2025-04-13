@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 24px;
+}
+
+.upload {
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 10px 24px;
+}
