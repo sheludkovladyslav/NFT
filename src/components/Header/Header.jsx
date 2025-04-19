@@ -8,7 +8,9 @@ export const Header = () => {
     <header className={css.header}>
       <div className={`${css.header__container} container`}>
         <Nav img={navIcon}></Nav>
-        <h1 className={css.title}>Supernft.</h1>
+        <a href="">
+          <h1 className={css.title}>Supernft.</h1>
+        </a>
         <Login></Login>
       </div>
     </header>

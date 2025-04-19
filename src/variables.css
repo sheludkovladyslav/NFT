@@ -4,4 +4,7 @@
   --font-extrabold: "Helvetica Now Extrabold";
   --font-medium: "Helvetica Now Medium";
   --border-color: #000;
+  --hero-bg: rgba(196, 196, 196, 0.24);
+  --release-color: rgba(91, 121, 231, 0.2);
+  --line-color: rgba(0, 0, 0, 0.2);
 }
