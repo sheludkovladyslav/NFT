@@ -7,4 +7,6 @@
   --hero-bg: rgba(196, 196, 196, 0.24);
   --release-color: rgba(91, 121, 231, 0.2);
   --line-color: rgba(0, 0, 0, 0.2);
+  --label-color: rgba(0, 0, 0, 0.56);
+  --text-bid: #fff;
 }

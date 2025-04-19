@@ -33,7 +33,7 @@ export const Hero = ({ product, author, collection }) => {
               </div>
               <div className={css.collection_info}>
                 <p className={css.label}>Collection</p>
-                <h3 className={css.collection__name}>{collection.name}</h3>
+                <h3 className={css.name}>{collection.name}</h3>
               </div>
             </div>
           </div>

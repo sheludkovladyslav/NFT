@@ -18,6 +18,8 @@ button {
   font-size: 14px;
   font-family: "Helvetica Now Medium";
   line-height: calc(22 / 14);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
 }
 
 @font-face {
