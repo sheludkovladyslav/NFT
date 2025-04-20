@@ -1,0 +1,42 @@
+.author {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descr {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.name {
+  font-family: var(--font-extrabold);
+}
+
+.release {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hours,
+.minutes,
+.seconds {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  padding-inline: 9px;
+  border-radius: 20px;
+  color: var(--text-bid);
+}
+
+.hours {
+  background-color: var(--hours);
+}
+
+.minutes {
+  background-color: var(--minutes);
+}
+
+.seconds {
+  background-color: var(--seconds);
+}

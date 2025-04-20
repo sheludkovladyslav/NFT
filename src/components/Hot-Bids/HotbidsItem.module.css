@@ -1,0 +1,40 @@
+.item {
+  flex-basis: calc((100% - 80px) / 3);
+  background-color: var(--hotbid-bg);
+  padding: 20px 20px 36px 20px;
+  border-radius: 32px;
+}
+
+.img_container {
+  width: 381px;
+  height: 284px;
+  margin-bottom: 28px;
+}
+
+.img {
+  border-radius: 24px;
+}
+
+.name {
+  font-family: var(--font-bold);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.bid {
+  color: var(--label-color);
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: var(--hotbid-line);
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.bold {
+  font-family: var(--font-bold);
+}

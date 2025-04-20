@@ -9,4 +9,10 @@
   --line-color: rgba(0, 0, 0, 0.2);
   --label-color: rgba(0, 0, 0, 0.56);
   --text-bid: #fff;
+  --main-bg: #f7f7f7;
+  --hotbid-bg: #fff;
+  --hotbid-line: rgba(0, 0, 0, 0.08);
+  --hours: #ed5671;
+  --minutes: #5e5be7;
+  --seconds: #a1d18a;
 }

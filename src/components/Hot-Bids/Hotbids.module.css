@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: var(--font-bold);
+  font-size: 32px;
+  margin-bottom: 40px;
+}

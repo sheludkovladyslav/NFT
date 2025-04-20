@@ -1,3 +1,7 @@
+.product {
+  margin-bottom: 60px;
+}
+
 .hero__container {
   display: flex;
   width: 100%;
