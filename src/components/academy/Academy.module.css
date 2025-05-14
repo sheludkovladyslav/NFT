@@ -1,0 +1,16 @@
+.title {
+  font-family: var(--font-bold);
+  font-size: 32px;
+  line-height: calc(48 / 32);
+  margin-bottom: 40px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}

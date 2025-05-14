@@ -8,6 +8,7 @@ import collectionIcon from "./assets/collection_img.png";
 import productImg from "./assets/product-img.jpg";
 import { Hotbids } from "./components/Hot-Bids/Hotbids";
 import hotbids from "./data/hotbids.json";
+import { Academy } from "./components/academy/academy";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       />
 
       <Hotbids hotbids={hotbids}></Hotbids>
+      <Academy></Academy>
     </>
   );
 }
